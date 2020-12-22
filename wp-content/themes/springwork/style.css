@@ -1,0 +1,171 @@
+/* 
+Theme Name:		 springwork
+Theme URI:		 http://childtheme-generator.com/
+Description:	 springwork is a child theme of WP Bootstrap Starter, created by ChildTheme-Generator.com
+Author:			 Hansen
+Author URI:		 http://childtheme-generator.com/
+Template:		 wp-bootstrap-starter
+Version:		 1.0.0
+Text Domain:	 springwork
+*/
+
+
+/*
+    Add your custom styles here
+*/
+
+
+
+
+header#masthead{
+	box-shadow: none;
+	background: #FFFFFF;
+}
+
+#page .superline{
+	height: 12px;
+	background:#FF5C36;
+}
+
+.navbar-brand a img{
+	min-width: 75px;
+	width: 30%;
+    height: auto;
+}
+
+.claim{
+	display: inline-block;
+	width:100%;
+}
+
+.claim-image {
+    
+    width: 150px;    
+    height: auto;
+    margin-top: 26px;
+}
+
+
+#page-sub-header{
+	background-size:50% 50% !important;
+	background-repeat: no-repeat !important;
+	background-position: top center !important;
+	padding-top:10px;
+}
+
+.front-claim-image{
+	width: 100%;
+    height: auto;
+    max-width:600px;
+    margin-top:20px;
+}
+
+
+
+body,
+body:not(.theme-preset-active) #page-sub-header h1{
+	color: #262626;
+}
+
+body{
+	font-size:16px;
+}
+
+a {
+  color: #FF5C36;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FF5C36;
+}
+
+footer{
+	font-size:0.8em;
+	color: #FF5C36;
+}
+
+.post-navigation .nav-previous a,
+.post-navigation .nav-next a{
+	position: relative;
+	border-radius: 30px;
+	border:2px solid #FF5C36;
+
+	white-space: nowrap;
+	width: 100%;
+	overflow: hidden; /* "overflow"-Wert darf nicht "visible" sein */ 
+
+	text-overflow: ellipsis;
+}
+
+.post-navigation .nav-next a{
+	padding-right:30px;
+}
+
+.post-navigation .nav-next a::after {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+}
+
+
+.comment-navigation .nav-previous,
+.posts-navigation .nav-previous,
+.post-navigation .nav-previous{
+	width:100%;
+}
+
+.comment-navigation .nav-next,
+.posts-navigation .nav-next,
+.post-navigation .nav-next{
+	width:100%;
+	float:left;
+}
+
+.post-navigation .nav-previous a:hover,
+.post-navigation .nav-next a:hover{
+	background:#FF5C36 none repeat scroll 0 0;
+	color:#FFFFFF;
+}
+
+
+@media (min-width: 768px){
+
+	.nav-next{
+		margin-left: 20px;
+	}
+
+	.comment-navigation .nav-previous,
+	.posts-navigation .nav-previous,
+	.post-navigation .nav-previous{
+		max-width:290px;
+		width: 50%;
+	}
+
+	.comment-navigation .nav-next,
+	.posts-navigation .nav-next,
+	.post-navigation .nav-next{
+		max-width:290px;
+		width: 50%;
+		float: left;
+	}
+
+	.navbar-brand a img{
+		width: 50%;
+    	height: 50%;
+	}
+
+	.claim{
+		width: 50%;
+		text-align:right;
+	}
+
+	.claim-image {
+		width: 296px;
+		margin-top: 36px;
+	}
+
+	.front-claim-image{
+		margin-top:50px;
+	}
+}

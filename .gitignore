@@ -1,0 +1,4 @@
+wp-content/themes/*
+!wp-content/themes/ronneby_child
+!wp-content/themes/springwork
+!wp-content/themes/wp-bootstrap-starter
